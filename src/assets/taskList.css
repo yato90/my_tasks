@@ -1,0 +1,35 @@
+.list{
+    margin-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.list .item{
+    display: flex;
+}
+.item .date_time {
+    position: relative;
+    display: inline-block;
+}
+.item .date_time span{
+    cursor: pointer;
+    display: inline-block;
+    z-index: 0; 
+}
+.item .date_time input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    background: none; 
+    z-index: 10;
+    opacity: 0;
+}
+.done {
+    background-color: #99daba;
+    text-decoration: line-through;
+}
+.done input{
+    text-decoration: line-through;
+}

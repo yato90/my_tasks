@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color:black;
+    font-weight: 700;
+    font-size: large;
+    margin-top: 10px;
+}
+.nav a{
+    color:#55544f;
+    background-color:#facd8a;
+    font-size: medium;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color:#db952c;
+}
+.nav_text{
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: 500;
+    color: #a19e99;
+}
+.nav_text p{
+    margin:0;
+}
+.today{
+    color: #74c961;
+}
+.tomorow{
+    color: #3d7cc1;
+}
+.nav_date{
+    position: fixed;
+    bottom: 0;
+    text-align: left;
+    color:black;
+    font-weight: 400;
+    padding: 10px;
+}

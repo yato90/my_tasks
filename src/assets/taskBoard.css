@@ -1,0 +1,52 @@
+.board{
+    display: flex;
+    justify-content: center;
+    color: #555555;
+    border-top: 1px solid #555555;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.board_type{
+    padding: 2rem;
+}
+.type_center{
+    border-left: 2px solid #cac9c5;
+    border-right: 2px solid #cac9c5;
+}
+.board_type .item{
+    display: flex;
+    height: 80px;
+    width: 250px;
+    border-radius:5px;
+    text-align: left;
+    align-items: center;
+}
+.board_type_info .date_time{
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+    width: 20%;
+}
+.board_type_info .date_time span{
+    cursor: pointer;
+    display: inline-block;
+    z-index: 0; 
+}
+.board_type_info .date_time input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    background: none; 
+    z-index: 10;
+    opacity: 0; 
+}
+.done {
+    background-color: #99daba;
+    text-decoration: line-through;
+}
+.done input{
+    text-decoration: line-through;
+}
